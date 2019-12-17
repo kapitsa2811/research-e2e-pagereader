@@ -1,4 +1,4 @@
-# End-to-End Handwritten Text Detection andTranscription in Full Pages
+# End-to-End Handwritten Text Detection and Transcription in Full Pages
 
 ![img3](http://www.cvc.uab.es/people/mcarbonell/images/page.jpg)
 

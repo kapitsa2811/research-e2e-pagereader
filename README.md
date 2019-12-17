@@ -32,6 +32,16 @@ Warp ctc pytorch: https://github.com/SeanNaren/warp-ctc
 
 Python pagexml: https://github.com/omni-us/pagexml/tree/master/py-pagexml
 
+## Data
+Train, validation and test examples's ground truth boxes and text contents must be listed in a csv file with the following format:
+```
+path/to/image1.png,text_bbox_1_x0,text_bbox_1_y0,text_bbox_1_x1,text_bbox_1_y1,'text',text_bbox_1_content
+path/to/image1.png,text_bbox_2_x0,text_bbox_2_y0,text_bbox_2_x1,text_bbox_2_y1,'text',text_bbox_2_content
+...
+path/to/imageN.png,text_bbox_1_x0,text_bbox_1_y0,text_bbox_1_x1,text_bbox_1_y1,'text',text_bbox_1_content
+
+```
+
 ## Training
 
 

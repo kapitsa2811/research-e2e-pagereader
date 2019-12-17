@@ -1,4 +1,4 @@
-# pytorch End-to-end Page Reader
+# End-to-End Handwritten Text Detection andTranscription in Full Pages
 
 ![img3](http://www.cvc.uab.es/people/mcarbonell/images/page.jpg)
 
@@ -26,13 +26,11 @@ pip3 install opencv-python
 
 pip3 install requests
 
-pip3 install torch-baidu-ctc
-
 pip3 install editdistance
 ```
+Warp ctc pytorch: https://github.com/SeanNaren/warp-ctc
 
-
-
+Python pagexml: https://github.com/omni-us/pagexml/tree/master/py-pagexml
 
 ## Training
 

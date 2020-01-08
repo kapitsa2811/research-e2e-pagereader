@@ -367,6 +367,7 @@ class AspectRatioBasedSampler(Sampler):
         self.batch_size = batch_size
         self.drop_last = drop_last
         self.groups = [[i] for i  in list(range(len(self.data_source)))]#self.group_images()
+        # [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
 
     def __iter__(self):
         #random.shuffle(self.groups)
